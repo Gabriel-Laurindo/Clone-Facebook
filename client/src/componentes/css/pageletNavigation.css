@@ -1,0 +1,179 @@
+.navigation{
+
+	width: 180px;
+	margin-right: 5px;
+	height: 549px;
+}
+
+.navigation ul{
+	list-style-type: none;
+	font-size: 13px;
+}
+
+.gato-navigation{
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+
+.navigation ul ul li{
+	height: 30px;
+	padding-left: 4px;
+	display: flex;
+	align-items: center;
+	margin: 0px;
+	cursor: pointer;
+	color: rgb(29, 33, 41)
+}
+
+.navigation ul ul li span{
+	color:#90959c
+}
+.verMais{
+	position: relative;
+	
+}
+.verMais:hover{
+	border: none !important;
+	background: transparent !important;
+
+}
+
+.verMais a{
+	padding-left: 23px;
+	color: #385898 !important;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.verMais::before{
+	content: "";
+	position: absolute;
+	vertical-align: middle;
+	margin-right: 10px;
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 5px solid #616770;
+}
+
+.navigation ul ul li:hover{
+	border: 1px solid #dddfe2;
+	background-color: #F2F3F5;
+}
+
+.navigation_statico{
+	font-weight: 500;
+	font-size: 13px;
+	color: #616770 !important;
+}
+.navigation_statico:hover{
+	border: none !important;
+	background: transparent !important;
+	cursor: default;
+}
+
+.feed{
+	width: 24px;
+	height: 20px;
+	background-image: url('../img/sprite.png');
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -991px;
+}
+
+
+.navigation_messenger{
+	width: 24px;
+	height: 25px;
+	background-image: url('../img/sprite.png');
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -256px;
+}
+.navigation_watch{
+	width: 24px;
+	height: 20px;
+	background-image: url('../img/sprite.png');
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -1518px;
+}
+
+.navigation_market{
+	width: 24px;
+	height: 20px;
+	background-image: url('../img/spriteSettings.png');
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -250px;
+}
+
+.navigation_market{
+	width: 24px;
+	height: 20px;
+	background-image: url('../img/spriteSettings.png');
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -250px;
+}
+
+.navigation_grupo{
+	width: 24px;
+	height: 20px;
+	background-image: url('../img/sprite.png');
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -1160px;
+}
+
+.navigation_paginas{
+	width: 24px;
+	height: 20px;
+	background-image: url('../img/sprite.png');
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -297px;
+}
+
+.navigation_grupos{
+	width: 24px;
+	height: 20px;
+	background-image: url('../img/sprite.png');
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -194px;
+}
+
+.navigation_eventos{
+	width: 24px;
+	height: 20px;
+	background-image: url('../img/sprite.png');
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -508px;
+}
+
+.navigation_campanha{
+	width: 24px;
+	height: 20px;
+	background-image: url('../img/sprite.png');
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -781px;
+}
+
+.navigation_lembrancas{
+	width: 24px;
+	height: 20px;
+	background-image: url('../img/sprite.png');
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -1055px;
+}
+
+.profile_name span{
+	color:#1d2129 !important;
+}

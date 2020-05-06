@@ -1,0 +1,30 @@
+version: '3.5'
+services:
+  db:
+    container_name: facebook_db
+    image: mongo
+    ports:
+      - 27017:27017
+    networks:
+      - facebook_clone
+  node:
+    build: ./server
+    container_name: facebook_server
+    ports:
+      - 3001:3001
+      - 8081:8081
+    networks:
+      - facebook_clone
+    volumes:
+      - ./server:/usr/app
+  react:
+    build: ./client
+    container_name: facebook_client
+    ports:
+      - 3000:3000
+    networks:
+      - facebook_clone
+    volumes:
+      - ./client:/usr/app
+networks:
+  facebook_clone:

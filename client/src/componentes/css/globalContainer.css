@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.Global-Container{
+	width: 1012px;
+	margin: 0 auto;
+	display: flex;
+	margin-top: 12px;
+}
+
+.criarPubli{
+	background-color: white;
+	border-radius: 4px;
+	width: 500px;
+	min-height: 155px;
+	border: 1px solid #dddfe2;
+	margin-bottom: 5px;
+
+}
+
+.criarPubli::before{
+	border: 1px solid #dddfe2;
+	border-radius: 4px;
+	pointer-events: none;
+}
+
+.criarPubli_titulo{
+	height: 31px;
+}
+
+.criarPubli_titulo h1{
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 600;
+	padding: 8px 12px 8px 7px;
+	color: #4b4f56;
+	border-bottom: 1px solid #dddfe2;
+}
+
+.criarPubli_post{
+	min-height: 120px;
+}
+
+.criarPubli_escrever{
+	min-height: 71px;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+}
+
+.criarPubli_Text input{
+	border: none;
+	outline: none;
+	width: 387px;
+	font-size: 15px;
+}
+
+.criarPubli_foto{
+	width: 50px;
+}
+
+.gato{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+
+.criarPubli_interacao{
+	width: 476px;
+	margin: 0 12px;
+	height: 49px;
+	padding: 8px 0;
+	border-top: 1px solid #dddfe2;
+}
+
+.criarPubli_interacao ul{
+	list-style: none;
+	display: flex;
+}
+
+.criarPubli_interacao li{
+	margin: 0 5px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #4b4f56;
+	background-color: #f5f6f7;
+	cursor: pointer;
+	padding:5px;
+	border-radius: 12px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+}
+
+.criarPubli_interacao li img{
+	margin-right: 8px;
+}
+
+.criarPubli_interacao li:hover{
+	background: #e9ebee;
+}
+
+.foto{
+	width: 24px;
+	height: 19px;
+	background-image: url('../img/sprite.png');
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -1119px;
+}
+
+.marcar{
+	width: 24px;
+	height: 19px;
+	background-image: url('../img/sprite.png');
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -739px;
+}
+
+.sentimento{
+	width: 24px;
+	height: 20px;
+	background-image: url('../img/sprite.png');
+	background-repeat: no-repeat;
+	background-position-x: 0px;
+	background-position-y: -677px;
+}
+
+.pontos{
+	font-size: 30px !important;
+	padding: 0 15px 19px 15px !important;
+	border-radius: 35% !important;
+}
+
+
+#selecao-arquivo{
+	display: none;
+}
+
+
+
+label {
+	display: flex;
+	cursor: pointer;
+  }
+
+
+  .preview-img{
+	  width: 100px;
+	  height: 100px;
+  }
+
+
+  .boxes_preview{
+	  padding: 10px;
+  }
